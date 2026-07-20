@@ -834,3 +834,38 @@ nav a:hover {
     color: #5f8f61;
     text-decoration: underline;
 }
+
+/* ---------- Article Images ---------- */
+
+.article-image {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.article-image img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.image-credit {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    line-height: 1.6;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-credit a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.image-credit a:hover {
+    text-decoration: underline;
+}
